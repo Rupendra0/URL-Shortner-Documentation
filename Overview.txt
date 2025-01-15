@@ -1,0 +1,31 @@
+
+***********///URL SHORTNER\\\\*************
+
+DESIGN A URL SHORTNER that take input as a original url and return a shortened url;
+
+alsokeep tarck of total visits/clicks on the URL
+
+--->>> No. of Routes :-
+
+1. POST /URL - Generates a new URL an return the shortened URLin the format example example.com/randpm-id.
+
+2. GET /:id - Redericts the user to original URL 
+
+GET /URL/analytics/:id - Return the clicks for the provided short id.
+
+//////////**UI will designed to be Server side rendered by using EJS(embedded javascript templating) {preffered} , pug , handlebars\\\\\\\\\\\
+
+_________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________
+Files Details --
+1 => Controllers - conatins functions whose operates to generate new urls and analytics of clicks
+
+2 => Models - contains Schema for mongoose db
+
+3 => Routes - contains all functions whose handles GET/POST requests for url
+
+4 => connect.js - do connection between mongoose 
+
+5 => views - contains UI things 
+-------------------------------------------------------------------------------------------------------------------------
+
