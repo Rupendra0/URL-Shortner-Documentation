@@ -3,7 +3,7 @@
 URL Shortner is mainly constructed by using node.js, express and mongoDB.
 We use Node.js for server environment and express to simplify the architecture of node.js .
 
-<h2>1. Routes</h2>
+<h2>Routes</h2>
 here we will make two routes :
 <h3>1 --> POST "/"  : To request url from user and send to it database MongoDB.</h3>
 
